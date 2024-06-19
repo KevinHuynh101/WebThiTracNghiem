@@ -32,7 +32,7 @@
 <div th:replace="~{/default-page :: navbar}"></div>
 <div th:replace="~{/default-page :: banner}"></div>
 <!-- Main Container Start -->
-<div class="container-fluid mt-3">
+<div class="container-fluid mt-3">   
     <div class="row" style="margin: 0 5%">
         <div class="col-md-8">
             <div class="container-fluid">
@@ -42,7 +42,7 @@
                         <h3 class="title" th:text="${news.title}"></h3>
                         <div class="view-time">
                             <span th:text="${news.view - 1 + ' lượt xem | '+#dates.format(news.createDate,'dd/MM/yyyy')}"></span>
-                            <span>- Tác giả: <span class="name-author" th:utext="${news.users.fullName}"></span></span>
+                            <span>Tác giả: <span class="name-author" th:utext="${news.users.fullName}"></span></span>
                         </div>
                         <div class="content" th:utext="${news.content}">
                         </div>
