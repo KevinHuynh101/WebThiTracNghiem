@@ -4,7 +4,7 @@
 - **Backend:**
   - Spring Boot (Java framework)
   - Spring Security (Authentication và Authorization)
-  - Restful API (cung cấp dữ liệu cho frontend)
+  - Restful API 
 - **Database:**
   - MySQL
 - **Frontend:**
